@@ -28,7 +28,14 @@ Démarrez rapidement avec le :doc:`Quick Tour <quick_tour/index>` d'Oxygen :
 
 * :doc:`installation/requirements`
 * :doc:`installation/create_base_project`
-    
+
+Cookbook
+--------
+
+.. toctree::
+
+    cookbook
+
 Normes de codage
 ----------------
 

@@ -1,10 +1,15 @@
 Créer son projet
 ================
 
+Créer la base de données
+------------------------
+
+Créer la base de données de votre projet. Dans notre exemple nous utiliserons comme base de données *oxygen*
+
 Créer un projet Symfony2
 ------------------------
 
-Lire la documentation Symfony2 pour la création de votre projet Symfony2 : `Télécharger SF2 <http://symfony.com/download>`
+Lire la documentation Symfony2 pour la création de votre projet Symfony2 : :doc:`Télécharger SF2 <http://symfony.com/download>`
 
 Nous vous recommandons d'utiliser composer. Une fois votre console lancée et 
 dans le dossier où vous souhaitez créer le dossier de votre projet, exécuter les
@@ -12,9 +17,18 @@ commandes suivantes :
 
 .. code-block:: bash
 
-    $ php composer.phar create-project symfony/framework-standard-edition oxygen/ 2.2.1
+    $ curl -sS https://getcomposer.org/installer | php
+    $ php composer.phar create-project symfony/framework-standard-edition oxygen/ 2.3.1
 
-Remplacer *2.2.1* par la version de Symfony2 souhaitée.
+Remplacer *2.3.1* par la version de Symfony2 souhaitée.
+
+Pendant l'installation, des questions vous seront posées pour paramétrer l'application : driver à utiliser pour la base de données, 
+connexion à la base de données, couche transport pour l'envoi des emails, ...
+
+Pour la couche transport, nous vous invitons à consulter des tutoriels très bien fait pour cela :
+
+* :doc:`Utiliser Gmail <http://symfony.com/fr/doc/current/cookbook/email/gmail.html>`
+* Utiliser sendmail avec MacOSX : :doc:`Paramétrer Postfix <http://www.justneuf.com/wiki/index.php/Envoyer_un_email_par_php_sous_Mac_OS_X>`
 
 Configurer apache
 -----------------

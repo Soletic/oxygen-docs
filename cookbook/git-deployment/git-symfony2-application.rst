@@ -45,15 +45,17 @@ Le fichier suivant est un exemple :
 
 .. code-block:: text
 
+   /web/bundles/
    /app/cache/
    /app/logs/
    /vendor/
-   /web/bundles
-   /app/config/parameters.yml
+   /app/config/parameters*.yml
    /app/bootstrap.php.cache
    /build/
    /bin/
    /composer.phar
+   /app/config/deploy.rb
+   Capfile
    *~
    .DS_Store
    .Thumbs

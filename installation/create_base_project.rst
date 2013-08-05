@@ -74,6 +74,11 @@ http://www.oxygen.dev depuis votre navigateur :
 
 Remplacer */path/to/oxygen/web* par le chemin complet du dossier web de votre application.
 
+Pour la partie optionnelle, vous devez activer les extensions apache suivantes :
+
+* mod_expires
+* 
+
 Dans le fichier httpd.conf vous devez aussi avoir ces deux lignes :
 
 .. code-block:: apache

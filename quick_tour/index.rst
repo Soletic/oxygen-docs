@@ -7,3 +7,4 @@ Le Quick Tour
    why_who
    core
    extensible
+   ihm_oxygen

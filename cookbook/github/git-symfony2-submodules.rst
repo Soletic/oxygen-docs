@@ -1,5 +1,5 @@
-Comment faire de mes bundles un sous-module Git de mon application ?
-====================================================================
+Comment transformer un bundle de l'application en un sous-module Git ?
+======================================================================
 
 Dans votre application, vous allez devoir créer des bundles.
 Nous vous proposons ce tutoriel pour créer ces bundles comme étant un dépôt Git à part entière

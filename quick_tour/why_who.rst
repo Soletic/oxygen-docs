@@ -49,13 +49,3 @@ Tout est fait dans Oxygen pour vous permettre de personnaliser / étendre le
 fonctionnement d'un bundle lors de votre implémentation.
 
 Lire :doc:`Extensible Tour <extensible>`
-
-Ihm
----
-
-A écrire
-
-Pour qui ?
-----------
-
-A ecrire

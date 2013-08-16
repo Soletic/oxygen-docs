@@ -5,6 +5,5 @@ Installation
 
    requirements
    create_base_project
+   doctrine_migration
    configuration
-   ../cookbook/git-deployment/git-symfony2-application
-   ../cookbook/git-deployment/git-symfony2-submodules

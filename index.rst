@@ -1,46 +1,30 @@
 Documentation Oxygen
 ====================
 
-Le Quick Tour
--------------
+Oxygen est un framework basé sur Symfony2 facilitant la création rapide d'applications métiers sur la base de bundles (modules) extensibles.
 
-Démarrez rapidement avec le :doc:`Quick Tour <quick_tour/index>` d'Oxygen :
+En effet, de nombreux logiciels Open Source restent trop orientées sur des fonctionnalités métiers particulières (CMS, eCommerce, Réseau social)
+et s'adaptant difficilement à des logiques métiers spécifiques comme par exemple un réseau social centré sur des contenus.
 
-.. toctree::
-    :hidden:
+Chaque bundle Oxygen a un seul objectif et est composé de fonctionnalités permettant de le remplir.
 
-    quick_tour/index
-
-* :doc:`quick_tour/why_who`
-* :doc:`quick_tour/core`
-* :doc:`quick_tour/extensible`
-* :doc:`quick_tour/ihm`
-
-Installation
-------------
-
-Démarrez rapidement avec le :doc:`Quick Tour <quick_tour/index>` d'Oxygen :
+Commencer avec Oxygen
+---------------------
 
 .. toctree::
-    :hidden:
+   :maxdepth: 2
+   
+   quick_tour/index
+   installation/index
+   cookbook/index
+   practices/index
+   developpers/index
 
-    installation/index
-
-* :doc:`installation/requirements`
-* :doc:`installation/create_base_project`
-
-Cookbook
---------
-
-.. toctree::
-
-    cookbook
-
-Normes de codage
-----------------
-
-Utiliser les bonnes pratiques pour développer sous Oxygen
+Bundles Oxygen
+--------------
 
 .. toctree::
-    
-    practices/index
+   :maxdepth: 2
+   
+   bundles/framework/index
+

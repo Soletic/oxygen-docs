@@ -2,6 +2,7 @@ Normes de codage
 ================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    names_and_files
+   eclipse

@@ -1,7 +1,7 @@
 Comment héberger une application Symfony2 sur GitHub ?
 ======================================================
 
-GitHub est un service en ligne permettant de gestion de codes sources (basé sur Git)
+GitHub est un service en ligne permettant la gestion de codes sources (basé sur Git).
 
 L'intérêt de placer son application Symfony2 sous contrôle Git est de pouvoir plus facilement déployer
 son application par la suite avec Capifony. Dans ce tutoriel, nous expliquons comment créer un
@@ -13,7 +13,7 @@ Lire le tutoriel suivant pour cette opération : :doc:`git-symfony2-submodules`
 
 Pré-requis :
 
-* Vous avez déjà créer votre application en local sur votre ordinateur :doc:`Créer son projet Oxygen <installation/requirements>`
+* Vous avez déjà créé votre application en local sur votre ordinateur :doc:`Créer son projet Oxygen <installation/requirements>`
 * Git est disponible sur votre ordinateur
 
 Créer un dépôt et l'initialiser sur son ordinateur.
@@ -33,7 +33,7 @@ pour initialiser un dépôt et le relier au dépôt GitHub
     $ git remote add origin https://github.com/you/application.git
     
 Ensuite vous pouvez utiliser votre client Git favori pour gérer votre dépôt. Nous vous recommandons 
-:doc:`SourceTree <http://www.sourcetreeapp.com/>` pour les utilisateurs Mac ou Windows.
+:doc:`SourceTree <http://www.sourcetreeapp.com/>` pour les utilisateurs Mac ou Windows et SmartGit sur Ubuntu.
 
 Exclure des fichiers/dossiers
 -----------------------------

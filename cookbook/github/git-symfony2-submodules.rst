@@ -8,14 +8,14 @@ et placé dans le dépôt de l'application.
 En faisant ceci, vous permettez à d'autres d'utiliser votre bundle sans récupérer toute l'application.
 
 Tout d'abord vous devez créer votre bundle.
-Lire la documentation :doc:`Générer un squelette pour un nouveau bundle <http://symfony.com/fr/doc/current/bundles/SensioGeneratorBundle/commands/generate_bundle.html>`
+Lire la documentation `Générer un squelette pour un nouveau bundle <http://symfony.com/fr/doc/current/bundles/SensioGeneratorBundle/commands/generate_bundle.html>`_
 
 Assurez-vous d'avoir Git d'installer sur votre ordinateur.
 
 Créer le dépôt et l'initialiser sur son ordinateur
 --------------------------------------------------
 
-Créer un dépôt sur Github : :doc:`GitHub <https://www.github.com/>`
+Créer un dépôt sur Github : `GitHub <https://www.github.com/>`_
 
 Nous supposons que l'URL du dépôt est https://github.com/you/AcmeSomethingBundle.git
 

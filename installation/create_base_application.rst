@@ -1,18 +1,18 @@
-Créer son projet
-================
+Symfony2
+========
 
 Créer la base de données
 ------------------------
 
-Créer la base de données de votre projet. Dans notre exemple nous utiliserons comme base de données *oxygen*
+Créer la base de données de votre application. Dans notre exemple nous utiliserons comme base de données *oxygen*
 
-Créer un projet Symfony2
-------------------------
+Créer l'application Symfony2
+----------------------------
 
-Lire la documentation Symfony2 pour la création de votre projet Symfony2 : :doc:`Télécharger SF2 <http://symfony.com/download>`
+Lire la documentation Symfony2 pour commencer : :doc:`Télécharger SF2 <http://symfony.com/download>`
 
 Nous vous recommandons d'utiliser composer. Une fois votre console lancée et 
-dans le dossier où vous souhaitez créer le dossier de votre projet, exécuter les
+dans le dossier où vous souhaitez créer le dossier de votre application, exécuter les
 commandes suivantes :
 
 .. code-block:: bash
@@ -74,10 +74,35 @@ http://www.oxygen.dev depuis votre navigateur :
 
 Remplacer */path/to/oxygen/web* par le chemin complet du dossier web de votre application.
 
+Si vous n'utilisez pas de fichier .htaccess dans le dossier web pour la reécriture d'URL, vous devez ajouter dans votre
+virtual host :
+
+.. code-block:: apache
+
+   <VirtualHost *:80>
+      ...
+      <Directory "/Users/lolozere/Developpement/goodbuy/web">
+             ...
+             DirectoryIndex app_dev.php
+             <IfModule mod_rewrite.c>
+                RewriteEngine On
+                RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+                RewriteRule ^(.*) - [E=BASE:%1]
+                RewriteCond %{ENV:REDIRECT_STATUS} ^$
+                RewriteRule ^app_dev\.php(/(.*)|$) %{ENV:BASE}/$2 [R=301,L]
+                RewriteCond %{REQUEST_FILENAME} -f
+                RewriteRule .? - [L]
+                RewriteRule .? %{ENV:BASE}/app_dev.php [L]
+             </IfModule>
+             ...             
+      </Directory>
+      ...
+   </VirtualHost>
+
 Pour la partie optionnelle, vous devez activer les extensions apache suivantes :
 
 * mod_expires
-* 
+* mod_rewrite
 
 Dans le fichier httpd.conf vous devez aussi avoir ces deux lignes :
 

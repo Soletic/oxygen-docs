@@ -53,11 +53,7 @@ Pour se faire, il faut revenir dans le dossier du dépôt Git de la documentatio
    $ ln -s ../../bundles/OxygenUIBundle/Resources/doc ui
    $ ln -s ../../bundles/OxygenDatagridBundle/Resources/doc datagrid
 
-Il faut maintenant télécharger les extensions Symonfy (Sensiolab) pour Sphinx :
-
-.. code-block:: bash
-   
-   $ Installation des extensions pour Synfony :
+Il faut maintenant télécharger les extensions Symfony (SensioLab) pour Sphinx :
 
 .. code-block:: bash
 
@@ -66,11 +62,13 @@ Il faut maintenant télécharger les extensions Symonfy (Sensiolab) pour Sphinx 
    $ mkdir _exts
    $ mv master/sensio _exts
    
+Il ne reste plus qu'à générer la documentation au foramt :
 
-   
-   
-   
-   
+.. code-block:: bash
+
+   $ make html
+
+Le documentation au format HTML se trouvera dans un dossier *_build/html*.
 
 Outils conseillés
 -----------------

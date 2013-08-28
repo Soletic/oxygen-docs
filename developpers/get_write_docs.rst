@@ -3,7 +3,7 @@ Documentation Oxygen
 
 La documentation Oxygen se trouve dans le dépôt suivant :
 
-* `https://github.com/Soletic/oxygen-docs`_
+* `Oxygen-docs GitHub <https://github.com/Soletic/oxygen-docs>`_
 
 Elle utilise `Sphinx <http://sphinx-doc.org/>`_ pour la générer dans un format particulier.
 
@@ -76,11 +76,11 @@ Outils conseillés
 Extension Eclipse
 +++++++++++++++++
 
-Pour être assiter dans l'édition de fichiers *.rst sur Eclipse, vous pouvez installer l'extension rEst Editor.
-URL de rEst Editor pour l'installer via "Install new software" : `http://resteditor.sourceforge.net/eclipse`_.
+Pour être assiter dans l'édition de fichiers \*.rst sur Eclipse, vous pouvez installer l'extension rEst Editor.
+URL de rEst Editor pour l'installer via "Install new software" : http://resteditor.sourceforge.net/eclipse.
 
 Une dépendance vous sera peut-être demandée : Eclipse Color Theme.
-URL de Eclipse Color Theme pour l'installer via "Install new software" : `http://eclipse-color-theme.github.io/update/`_.
+URL de Eclipse Color Theme pour l'installer via "Install new software" : http://eclipse-color-theme.github.io/update/.
  
 
 

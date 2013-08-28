@@ -27,4 +27,6 @@ Bundles Oxygen
    :maxdepth: 2
    
    bundles/framework/index
+   bundles/ui/index
+   bundles/datagrid/index
 

@@ -3,7 +3,7 @@ Installer DoctrineMigrationBundle
 
 La procédure d'installation de DoctrineMigrationBundle est expliquée ici :
 
-:doc:`DoctrineMigrationBundle Installation <http://symfony.com/fr/doc/current/bundles/DoctrineMigrationsBundle/index.html#installation>`
+`DoctrineMigrationBundle Installation <http://symfony.com/fr/doc/current/bundles/DoctrineMigrationsBundle/index.html#installation>`_
 
 Cependant pour la réaliser vous devez modifier la stabilité minimum de votre application
 dans le fichier composer.json en "dev" car il n'y a pas de version stable de doctrine/migrations.

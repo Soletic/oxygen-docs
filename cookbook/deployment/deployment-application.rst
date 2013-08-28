@@ -11,7 +11,7 @@ Pré-requis
 
 * L'extension OpenSSL de PHP sur le serveur de production doit-être activée
 * Créer la base de données sur votre serveur
-* Installer Capifony : :doc:`<http://capifony.org/>`. Faire uniquement l'étape 1.
+* Installer Capifony : http://capifony.org/. Faire uniquement l'étape 1.
 * Créer un compte utilisateur sur votre serveurayant un accès SSH (par exemple ssn ayant comme mot de passe ssnpass) 
 * Créer un dossier pour votre projet dans le dossier de cette utilisateur (par exemple application)
 * Utiliser DoctrineMigrationBundle dans votre application (:doc:`Installer DoctrineMigrationBundle <../../installation/doctrine_migrations.rst>`)
@@ -24,7 +24,7 @@ Change session configuration
 
 Pour un déploiement optimal, nous vous invitons à suivre ce tutoriel pour conserver les sessions malgré un déploiement :
 
-:doc:`How to keep Symfony2 sessions after deploy <http://capifony.org/cookbook/how-to-keep-sessions-after-deploy.html>`
+`How to keep Symfony2 sessions after deploy <http://capifony.org/cookbook/how-to-keep-sessions-after-deploy.html>`_
 
 Setup project
 -------------
@@ -58,10 +58,29 @@ Ajoutez dans shared/app/config vos fichiers de paramétrages. Exemple avec param
 Deploy
 ------
 
+Premier déploiement
++++++++++++++++++++
+
+Si c'est votre premier déploiement, capifony essayera d'installer composer.phar avec la ligne de commande 
+curl -s http://getcomposer.org/installer | php
+
+Si votre serveur n'a pas curl, vous devez avoir à la racine de votre application cette installation déjà faite.
+
+Déploiement continu
++++++++++++++++++++
+Si vous utilisez DoctrineMigrations :
+
 .. code-block:: bash
 
    $ cd path/to/application
    $ cap deploy:migrations
+   
+Sinon
+
+.. code-block:: bash
+
+   $ cd path/to/application
+   $ cap deploy
    
 Deploy config file example
 --------------------------

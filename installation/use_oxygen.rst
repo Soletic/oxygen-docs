@@ -28,7 +28,7 @@ Si par exemple, vous souhaitez créez un logiciel collaboratif pour partager des
 Coopnet, vous créez un bundle : CoopnetApplication. Si votre société est MyCompany, ce bundle se trouve dans : 
 /path/to/application/src/MyCompany/CoopnetApplicationBundle
 
-:doc:`Créer un bundle <http://symfony.com/fr/doc/current/bundles/SensioGeneratorBundle/commands/generate_bundle.html>`
+`Créer un bundle <http://symfony.com/fr/doc/current/bundles/SensioGeneratorBundle/commands/generate_bundle.html>`_
 
 Layout de base
 ++++++++++++++

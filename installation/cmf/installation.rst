@@ -5,7 +5,7 @@ Installer la version standard de Symfony CMF
 --------------------------------------------
 
 Commencer par la documentation d'installation officielle
-pour installer Symfony CMF : :doc:`Symfony CMF <http://symfony.com/doc/master/cmf/getting-started/installing-symfony-cmf.html>`
+pour installer Symfony CMF : `Symfony CMF <http://symfony.com/doc/master/cmf/getting-started/installing-symfony-cmf.html>`_
 
 | Ne pas encore installer la base de données !
 
@@ -122,7 +122,7 @@ Puis éditer le fichier app/config/config.yml pour ajouter la locale fr :
 Installer Sonata Admin
 ----------------------
 
-Lire la documentation officielle : :doc:`Cmf and Sonata Admin <http://symfony.com/doc/master/cmf/tutorials/creating-cms-using-cmf-and-sonata.html`
+Lire la documentation officielle : `Cmf and Sonata Admin <http://symfony.com/doc/master/cmf/tutorials/creating-cms-using-cmf-and-sonata.html`_
 
 Puis ajouter dans app/AppKernel.php :
 

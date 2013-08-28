@@ -19,7 +19,7 @@ Pré-requis :
 Créer un dépôt et l'initialiser sur son ordinateur.
 ---------------------------------------------------
 
-Tout d'abord vous devez créer un dépôt sur Github : :doc:`GitHub <https://www.github.com/>`
+Tout d'abord vous devez créer un dépôt sur Github : `GitHub <https://www.github.com/>`_
 
 Nous supposons que l'URL du dépôt est https://github.com/you/application.git
 
@@ -33,7 +33,7 @@ pour initialiser un dépôt et le relier au dépôt GitHub
     $ git remote add origin https://github.com/you/application.git
     
 Ensuite vous pouvez utiliser votre client Git favori pour gérer votre dépôt. Nous vous recommandons 
-:doc:`SourceTree <http://www.sourcetreeapp.com/>` pour les utilisateurs Mac ou Windows et SmartGit sur Ubuntu.
+`SourceTree <http://www.sourcetreeapp.com/>`_ pour les utilisateurs Mac ou Windows et SmartGit sur Ubuntu.
 
 Exclure des fichiers/dossiers
 -----------------------------

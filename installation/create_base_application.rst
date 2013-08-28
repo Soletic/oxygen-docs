@@ -9,7 +9,7 @@ Créer la base de données de votre application. Dans notre exemple nous utilise
 Créer l'application Symfony2
 ----------------------------
 
-Lire la documentation Symfony2 pour commencer : :doc:`Télécharger SF2 <http://symfony.com/download>`
+Lire la documentation Symfony2 pour commencer : `Télécharger SF2 <http://symfony.com/download>`_
 
 Nous vous recommandons d'utiliser composer. Une fois votre console lancée et 
 dans le dossier où vous souhaitez créer le dossier de votre application, exécuter les
@@ -27,8 +27,8 @@ connexion à la base de données, couche transport pour l'envoi des emails, ...
 
 Pour la couche transport, nous vous invitons à consulter des tutoriels très bien fait pour cela :
 
-* :doc:`Utiliser Gmail <http://symfony.com/fr/doc/current/cookbook/email/gmail.html>`
-* Utiliser sendmail avec MacOSX : :doc:`Paramétrer Postfix <http://www.justneuf.com/wiki/index.php/Envoyer_un_email_par_php_sous_Mac_OS_X>`
+* `Utiliser Gmail <http://symfony.com/fr/doc/current/cookbook/email/gmail.html>`_
+* Utiliser sendmail avec MacOSX : `Paramétrer Postfix <http://www.justneuf.com/wiki/index.php/Envoyer_un_email_par_php_sous_Mac_OS_X>`_
 
 Configurer apache
 -----------------

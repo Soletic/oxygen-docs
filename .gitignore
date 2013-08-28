@@ -6,3 +6,4 @@ bundles/*
 *.core.prefs
 *.swap
 .buildpath
+.settings

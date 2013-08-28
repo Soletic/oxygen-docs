@@ -2,3 +2,4 @@ _*
 .project
 Makefile
 bundles/*
+conf.py

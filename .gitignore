@@ -7,3 +7,4 @@ bundles/*
 *.swap
 .buildpath
 .settings
+conf.py

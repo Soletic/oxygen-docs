@@ -1,10 +1,12 @@
 Documentation Oxygen
 ====================
 
-Oxygen est un framework basé sur Symfony2 facilitant la création rapide d'applications métiers sur la base de bundles (modules) extensibles.
+Oxygen est un framework basé sur Symfony2 facilitant la création rapide d'applications métiers sur 
+la base de bundles (modules) extensibles.
 
-En effet, de nombreux logiciels Open Source restent trop orientées sur des fonctionnalités métiers particulières (CMS, eCommerce, Réseau social)
-et s'adaptant difficilement à des logiques métiers spécifiques comme par exemple un réseau social centré sur des contenus.
+En effet, de nombreux logiciels Open Source restent trop orientés sur des fonctionnalités métiers 
+particulières (CMS, eCommerce, Réseau social) et s'adaptent difficilement à des logiques métiers 
+spécifiques comme par exemple un réseau social centré sur des contenus.
 
 Chaque bundle Oxygen a un seul objectif et est composé de fonctionnalités permettant de le remplir.
 

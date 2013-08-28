@@ -2,4 +2,7 @@ _*
 .project
 Makefile
 bundles/*
-conf.py
+*.core.xml
+*.core.prefs
+*.swap
+.buildpath

@@ -3,7 +3,7 @@ Déployer son application avec Capifony
 
 Cette documentation est un exemple parmi tant d'autres pour déployer son application Symfony2 :
 
-* Le serveur de production accède aux dépôts Git composant l'application
+* Le serveur de production accède aux dépôts Git composant l'application.
 
 
 Pré-requis
@@ -13,11 +13,10 @@ Pré-requis
 * Créer la base de données sur votre serveur
 * Installer Capifony : http://capifony.org/. Faire uniquement l'étape 1.
 * Créer un compte utilisateur sur votre serveurayant un accès SSH (par exemple ssn ayant comme mot de passe ssnpass) 
-* Créer un dossier pour votre projet dans le dossier de cette utilisateur (par exemple application)
+* Créer un dossier pour votre projet dans le dossier de cette utilisateur (par exemple www)
 * Utiliser DoctrineMigrationBundle dans votre application (:doc:`Installer DoctrineMigrationBundle <../../installation/doctrine_migrations.rst>`)
 
-Avec ces pré-requis, l'application est déployée dans le dossier /home/ssn/application
-de votre serveur.
+Avec ces pré-requis, l'application est déployée dans le dossier /home/__USERNAME__/www de votre serveur.
 
 Change session configuration
 ++++++++++++++++++++++++++++
@@ -33,27 +32,25 @@ Créer la configuration initiale du projet à déployer :
 
 .. code-block:: bash
 
-   $ cd path/to/application
+   $ cd /path/to/application
    $ capifony .
    
-Configurer votre fichier de configuration de déploiement se trouvant dans app/config/deploy.rb. A la fin de cette page,
-un exemple vous est donné.
-
+Configurer votre fichier de configuration de déploiement se trouvant dans /path/to/application/app/config/deploy.rb. A la fin de cette page, un exemple vous est donné.
 
 Créez l'arborescence de déploiement sur le serveur :
 
 .. code-block:: bash
 
-   $ cd path/to/application
+   $ cd /path/to/application
    $ cap deploy:setup
 
-Ajoutez dans shared/app/config vos fichiers de paramétrages. Exemple avec parameters.yml :
+Ajoutez dans /path/to/application/shared/app/config vos fichiers de paramétrages. Exemple avec parameters.yml :
 
 .. code-block:: bash
 
-   ssn@server$ cd path/to/application
-   ssn@server$ mkdir -p shared/app/config
-   ssn@server$ vi shared/app/config/parameters.yml
+   user@server$ cd /path/to/application
+   user@server$ mkdir -p shared/app/config
+   user@server$ vi shared/app/config/parameters.yml
    
 Deploy
 ------
@@ -72,7 +69,7 @@ Si vous utilisez DoctrineMigrations :
 
 .. code-block:: bash
 
-   $ cd path/to/application
+   $ cd /path/to/application
    $ cap deploy:migrations
    
 Sinon

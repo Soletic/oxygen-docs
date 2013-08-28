@@ -98,8 +98,10 @@ virtual host :
       </Directory>
       ...
    </VirtualHost>
+   
+Si vous être en production, remplacer app_dev.php par app.php
 
-Pour la partie optionnelle, vous devez activer les extensions apache suivantes :
+Vous devez activer les extensions apache suivantes :
 
 * mod_expires
 * mod_rewrite

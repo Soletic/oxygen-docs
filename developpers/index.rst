@@ -6,3 +6,4 @@ In progress...
 .. toctree::
 
    todolist
+   get_write_docs

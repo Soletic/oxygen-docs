@@ -1,6 +1,7 @@
 Todo List des développements
 ============================
 
+* [Oxygen-docs] Ecrire comment obtenir, modifier et générer la documentation
 * [OxygenFramework] Pourvoir remplacer la classe EntityManager à utiliser dans EntitiesServer via fichier de configuration
 * [OxygenFramework] Ligne de commande d'installation des entités d'un bundle Oxygen dans un autre bundle
 * [OxygenUI] Documenter liste des ressources proposées

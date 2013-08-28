@@ -103,6 +103,7 @@ Pour la partie optionnelle, vous devez activer les extensions apache suivantes :
 
 * mod_expires
 * mod_rewrite
+* mod_headers
 
 Dans le fichier httpd.conf vous devez aussi avoir ces deux lignes :
 

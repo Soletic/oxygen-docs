@@ -6,4 +6,5 @@ bundles/*
 *.swap
 .buildpath
 .settings
-themes/*
+themes/oxygen/*.html
+themes/oxygen/static/*

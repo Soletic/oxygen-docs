@@ -6,3 +6,4 @@ bundles/*
 *.swap
 .buildpath
 .settings
+themes/*

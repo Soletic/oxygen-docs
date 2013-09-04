@@ -43,7 +43,6 @@ Sommaire
 --------
 
 .. toctree::
-   :maxdepth: 2
    
    quick_tour/index
    installation/index

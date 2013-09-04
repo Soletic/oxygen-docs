@@ -1,52 +1,54 @@
 Installer DoctrineMigrationBundle
 =================================
 
-La procédure d'installation de DoctrineMigrationBundle est expliquée ici :
+Dans un permier veuillez suivre la procédure d'installation du bundle DoctrineMigrationBundle :
 
-`DoctrineMigrationBundle Installation <http://symfony.com/fr/doc/current/bundles/DoctrineMigrationsBundle/index.html#installation>`_
+`DoctrineMigrationBundle - Installation <http://symfony.com/fr/doc/current/bundles/DoctrineMigrationsBundle/index.html#installation>`_
 
-Cependant pour la réaliser vous devez modifier la stabilité minimum de votre application
-dans le fichier composer.json en "dev" car il n'y a pas de version stable de doctrine/migrations.
-C'est seulement en alpha.
+Le bundle DoctrineMigrationBundle n'est pour le moment que dans une version alpha. Vous devez donc    
+modifier la stabilité minimum de votre application dans le fichier composer.json en "dev".
 
-Pour mettre à jour seulement ce vendor : 
+Lancez la commande suivante pour mettre à jour ce *vendor* : 
 
 .. code-block:: bash
 
    $ php composer.phar update doctrine/doctrine-migrations-bundle
 
-Une fois l'installation faite, repassez en "stable".
+.. container:: alert alert-warning
+
+   Une fois l'installation faite, repassez en "stable".
 
 Créer la base de données locale de déploiement
 ----------------------------------------------
 
-Lorsque vous développez, vous utilisez une base de données de référence. Par exemple database.
-Pendant vos développements, vous mettez à jour la structure de la base de données via la commande :
+Lors de l'installation de Symfony2, vous avez dû renseigner le nom de votre base de données (par exemple : oxygen).
+La mise à jour de la structure de votre base de données se fait avec la commande suivante :
 
 .. code-block:: bash
 
    $ php app/console doctrine:schema:update --force
 
-DoctrineMigrations crée une jeu de requête SQL pour mettre à jour une base de données si sa structure ne correspond
+*DoctrineMigrations* crée un jeu de requête SQL pour mettre à jour une base de données si sa structure ne correspond
 pas à celle décrite par les entitées des bundles. Donc si vous créez la migration à partir de votre base de référence,
 aucune migration ne sera détectée.
 
-Vous devez donc créer une base de données de déploiement que nous appelons dans notre exemple : database_migration
+Vous devez donc créer une base de données de déploiement que nous appelons dans notre exemple : *oxygen_migration*.
 
 Générer la migration
 --------------------
 
-Vous modifiez votre fichier parameters.yml pour basculer sur la base de données database_migration puis vous exécutez les commandes :
+Modifiez votre fichier parameters.yml pour basculer sur la base de données *oxygen_migration* puis exécutez les commandes :
 
 .. code-block:: bash
 
    $ php app/console doctrine:migration:diff
    $ php app/console doctrine:migration:migrate
 
-Si tout se passe bien, c'est la que la migration fonctionne.
+Si tout se passe bien, la migration a fonctionné.
 
-Pour éviter d'exécuter la migration sur votre base de données de référence, ajoutez le n° de version de migration dans la table de migration. 
-Si elle n'existe pas encore, exécutez la commande suivante (en pensant à revenir sur votre base de référence dans parameters.yml) :
+Pour éviter d'exécuter la migration sur votre base de données de référence (oxygen dans notre exemple), ajoutez le numéro
+de version de migration dans la table de migration. Si elle n'existe pas encore, exécutez la commande suivante 
+(en pensant à revenir sur votre base de référence dans parameters.yml) :
 
 .. code-block:: bash
 

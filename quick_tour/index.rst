@@ -1,10 +1,9 @@
-Le Quick Tour
-=============
+Oxygen Framework : fonctionnalités embarquées
+=============================================
 
 .. toctree::
    :maxdepth: 1
 
-   why_who
    core
    extensible
    ihm_oxygen

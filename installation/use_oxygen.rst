@@ -58,11 +58,11 @@ Le layout de votre application est donc finalement :
 .. code-block:: twig
 
    {# src/MyCompany/CoopnetApplication/Resources/views/layout.html.twig #}
-   {% extends 'OxygenUIBundle::layout.html.twig' %}
+   {% extends oxy_layout() %}
 
 Avec dans le fichier de configuration :  
 
-.. code-block:: yml
+.. code-block:: yaml
 
    # app/config/config.yml
    oxygen_framework:

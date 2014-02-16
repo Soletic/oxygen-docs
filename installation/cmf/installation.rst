@@ -122,7 +122,7 @@ Puis éditer le fichier app/config/config.yml pour ajouter la locale fr :
 Installer Sonata Admin
 ----------------------
 
-Lire la documentation officielle : `Cmf and Sonata Admin <http://symfony.com/doc/master/cmf/tutorials/creating-cms-using-cmf-and-sonata.html`_
+Lire la documentation officielle : `Cmf and Sonata Admin <http://symfony.com/doc/master/cmf/tutorials/creating-cms-using-cmf-and-sonata.html>`_
 
 Puis ajouter dans app/AppKernel.php :
 

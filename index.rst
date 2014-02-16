@@ -23,8 +23,8 @@ Oxygen a choisir les technologies suivantes car elles offrent déjà des capacit
 * Bootstrap Twitter pour des IHM simples, jolies et rapides à mettre en place ;
 
 
-Commencer avec Oxygen
----------------------
+Sommaire
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -34,9 +34,6 @@ Commencer avec Oxygen
    cookbook/index
    practices/index
    developpers/index
-
-Bundles
--------
 
 .. toctree::
    :maxdepth: 2
